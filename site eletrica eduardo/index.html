@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MantraEnel - Materiais Elétricos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+                        <a href="#" class="logo">
+                <i class="ph-fill ph-lightning"></i> MantraEnel
+            </a>
+                        <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#produtos" class="nav-link">Produtos</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#ofertas" class="nav-link">Ofertas</a></li>
+                    <li><a href="#distribuidores" class="nav-link">Distribuidores</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+                        <div class="header-actions">
+                <button id="theme-toggle" class="icon-btn" aria-label="Trocar Tema">
+                    <i class="ph ph-moon"></i>
+                </button>
+                <a href="#contato" class="btn btn-primary d-none-mobile">Compre Agora</a>
+                                <button class="icon-btn" id="menu-btn" aria-label="Abrir Menu">
+                    <i class="ph ph-list"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+                <section id="home" class="hero">
+            <div id="carousel" class="carousel">
+                                <div class="carousel-slide active">
+                    <img src="img/slide1.jpg" alt="Materiais Elétricos" class="carousel-bg">
+                    <div class="carousel-content container">
+                        <h1>Materiais elétricos de qualidade para seu projeto</h1>
+                        <p>Fios, cabos, disjuntores, luminárias e muito mais com os melhores preços.</p>
+                        <a href="#produtos" class="btn btn-primary">Ver Produtos</a>
+                    </div>
+                </div>
+                                <div class="carousel-slide">
+                    <img src="img/slide2.jpg" alt="Equipe de vendas" class="carousel-bg">
+                    <div class="carousel-content container">
+                        <h1>Atendimento especializado e entrega rápida</h1>
+                        <p>Distribuímos para todo o Brasil com segurança e pontualidade</p>
+                        <a href="#contato" class="btn btn-primary">Solicitar Orçamento</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control prev" id="btn-prev">
+                <i class="ph ph-caret-left"></i>
+            </button>
+            <button class="carousel-control next" id="btn-next">
+                <i class="ph ph-caret-right"></i>
+            </button>
+        </section>
+
+                <section id="produtos" class="section bg-alt">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Nossos Produtos</h2>
+                    <div class="line"></div>
+                    <p>Linha completa de materiais elétricos para sua obra ou projeto</p>
+                </div>
+                <div class="grid grid-cards">
+                    <article class="card">
+                        <div class="card-icon-wrapper">
+                            <i class="ph ph-plug"></i>
+                        </div>
+                        <h3>Fios e Cabos</h3>
+                        <p>Cabos de cobre 750V, 1000V, antichamas e para rede de dados.</p>
+                        <a href="#" class="btn btn-outline">Ver linha</a>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon-wrapper">
+                            <i class="ph ph-shield"></i>
+                        </div>
+                        <h3>Disjuntores e Quadros</h3>
+                        <p>Proteção para sua instalação elétrica com as melhores marcas.</p>
+                        <a href="#" class="btn btn-outline">Ver linha</a>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon-wrapper">
+                            <i class="ph ph-lamp"></i>
+                        </div>
+                        <h3>Iluminação LED</h3>
+                        <p>Lâmpadas, refletores e fitas de LED com alta eficiência.</p>
+                        <a href="#" class="btn btn-outline">Ver linha</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+                <section id="sobre" class="section stats-section">
+            <div class="container">
+                <div class="section-title title-light">
+                    <h2>MantraEnel em Números</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="grid grid-stats">
+                    <div class="stat-box">
+                        <i class="ph ph-storefront"></i>
+                        <span class="stat-num" data-target="862">0</span>
+                        <p>Clientes Atendidos</p>
+                    </div>
+                    <div class="stat-box">
+                        <i class="ph ph-package"></i>
+                        <span class="stat-num" data-target="67000">0</span>
+                        <p>Produtos Vendidos</p>
+                    </div>
+                    <div class="stat-box">
+                        <i class="ph ph-truck"></i>
+                        <span class="stat-num" data-target="1352">0</span>
+                        <p>Cidades Atendidas</p>
+                    </div>
+                    <div class="stat-box">
+                        <i class="ph ph-handshake"></i>
+                        <span class="stat-num" data-target="229">0</span>
+                        <p>Parceiros Comerciais</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <section id="ofertas-distribuidores" class="section">
+            <div class="container grid dual-layout">
+                <div class="news-container" id="ofertas">
+                    <h3 class="box-title">Ofertas da Semana</h3>
+                    <article class="news-item">
+                        <img src="img/news.01.jpg" alt="Cabo 2.5mm" class="news-img">
+                        <div class="news-text">
+                            <h4>Cabo 2.5mm - 25% OFF</h4>
+                            <span class="news-date">Oferta válida até: 30/11</span>
+                            <p>Rolo de 100m de cabo 2.5mm com desconto especial.</p>
+                        </div>
+                    </article>
+                    <article class="news-item">
+                        <img src="img/news.02.webp" alt="Disjuntor" class="news-img">
+                        <div class="news-text">
+                            <h4>Kit Disjuntor + Quadro</h4>
+                            <span class="news-date">Combo Econômico</span>
+                            <p>Adquira o kit completo com 20% de desconto.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="events-container" id="distribuidores">
+                    <h3 class="box-title">Distribuidores Autorizados</h3>
+                    <div class="event-item">
+                        <div class="event-calendar">
+                            <i class="ph ph-map-pin" style="font-size: 2rem;"></i>
+                        </div>
+                        <div class="event-text">
+                            <h4>São Paulo - SP</h4>
+                            <span class="event-meta">
+                                <i class="ph ph-storefront"></i> EletroMantra
+                            </span>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-calendar">
+                            <i class="ph ph-map-pin" style="font-size: 2rem;"></i>
+                        </div>
+                        <div class="event-text">
+                            <h4>Rio de Janeiro - RJ</h4>
+                            <span class="event-meta">
+                                <i class="ph ph-storefront"></i> EnelDistribui
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <section class="section bg-alt" id="contato">
+            <div class="container grid contact-layout">
+                <div class="contact-info">
+                    <h2>Fale com a MantraEnel</h2>
+                    <p>Nossa equipe está pronta para atender suas dúvidas e pedidos.</p>
+                    <ul class="contact-list">
+                        <li><i class="ph ph-envelope-simple"></i> atendimento@mantraenel.com.br</li>
+                        <li><i class="ph ph-phone"></i> (47) 6767-6969</li>
+                        <li><i class="ph ph-buildings"></i> Rua Coronel Procópio Gomes de Oliveira, 466 - Jaraguá do Sul/SC</li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <form onsubmit="return false;">
+                        <div class="input-group">
+                            <label for="nome">Como devemos te chamar?</label>
+                            <input type="text" id="nome" placeholder="Seu nome completo">
+                        </div>
+                        <div class="input-group">
+                            <label for="email">E-mail para contato</label>
+                            <input type="email" id="email" placeholder="seu.melhor@email.com">
+                        </div>
+                        <div class="input-group">
+                            <label for="msg">Mensagem</label>
+                            <textarea id="msg" rows="4" placeholder="Digite sua mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-full">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container grid footer-grid">
+            <div class="brand-col">
+                <a href="#" class="logo">
+                    <i class="ph-fill ph-lightning"></i> MantraEnel
+                </a>
+                <p>Distribuição de materiais elétricos com qualidade para todo o Brasil.</p>
+            </div>
+            <div class="link-col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#sobre">Institucional</a></li>
+                </ul>
+            </div>
+            <div class="link-col">
+                <h4>Institucional</h4>
+                <ul>
+                    <li><a href="#ofertas">Ofertas</a></li>
+                    <li><a href="#distribuidores">Distribuidores</a></li>
+                  <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="social-col">
+                <h4>Acompanhe</h4>
+                <div class="social-links">
+                    <a href="#"><i class="ph ph-instagram-logo"></i></a>
+                    <a href="#"><i class="ph ph-linkedin-logo"></i></a>
+                    <a href="#"><i class="ph ph-github-logo"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 MantraEnel. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
